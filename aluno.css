@@ -1,0 +1,63 @@
+body::before {
+    content: "";
+    background-image: url(./img/planodefundol.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8; /* Altere o valor da opacidade conforme desejado (varia de 0 a 1) */
+    z-index: -1; /* Coloca o plano de fundo atrás de todo o conteúdo */
+}
+.arco {
+    width: 380px;
+}
+
+.nomelanche {
+    border-radius: 5px black;
+}
+
+.dia {
+    font-size: 40px;
+    margin-top: -20%;
+    margin-left: 11%;
+}
+
+.linha1 {
+    margin-top: -25px;
+}
+
+.linha2 {
+    margin-top: -55px;
+}
+
+.aceita {
+    margin-top: -35px;
+    margin-left: 10%;
+}
+
+.nextday {
+    margin-left: 75%;
+    margin-top: -21%;
+}
+
+.amanha {
+    margin-left: 75px;
+}
+
+.circulo {
+    border-radius: 50%;
+}
+
+.lanchedodia{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        border-radius: 50%;
+        margin-left: 524px;
+        margin-top: 255px;
+
+}

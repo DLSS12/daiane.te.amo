@@ -1,0 +1,30 @@
+body{
+background-image: url(./img/baiox.png);
+background-size: cover;
+background-repeat: no-repeat, repeat-x;
+    }
+
+.logo{
+    background-image: linear-gradient(to right, rgb(11, 10, 19),#c89116) ;
+    margin-top: -8px;
+}
+
+.buttoncadastro{
+    margin-left: 5%;
+    margin-top: -47px;
+}
+
+.buttonlogin{
+margin-left: 55%;
+margin-top: -357px;
+}
+
+.jumpcad{
+    margin-top: -14%;
+    margin-left: 17%;
+}
+
+.jumplog{
+    margin-left: 72%;
+    margin-top: -3%;
+}
